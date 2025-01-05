@@ -1,82 +1,103 @@
-Slot Machine Game 🎠
+# Slot Machine Game 🎠
 
-This is a simple command-line slot machine game written in JavaScript. Players can deposit money, place bets, and spin the reels to try their luck and win based on matching symbols.
+This is a simple **command-line slot machine game** written in JavaScript. Players can deposit money, place bets, and spin the reels to try their luck and win based on matching symbols.
 
-Features ✨
+---
 
-Deposit money to start playing.
+## Features ✨
 
-Choose the number of lines to bet on (1-3).
+1. Deposit money to start playing.
+2. Choose the number of lines to bet on (1-3).
+3. Place a bet amount per line.
+4. Spin the slot machine.
+5. Check if you’ve won and receive your winnings.
+6. Option to play again or exit the game.
+7. Game ends when your balance runs out.
 
-Place a bet amount per line.
+---
 
-Spin the slot machine.
+## How to Play 🕹️
 
-Check if you’ve won and receive your winnings.
+### Game Flow:
 
-Option to play again or exit the game.
+1. **Deposit Money**  
+   Start by entering the amount you want to deposit.  
+   Example: `Enter a deposit amount: 100`
 
-Game ends when your balance runs out.
+2. **Choose Number of Lines**  
+   Select how many lines you want to bet on (1-3).  
+   Example: `Enter the number of lines to bet on (1-3): 2`
 
-How to Play 🕹️
+3. **Place Your Bet**  
+   Enter the amount you want to bet per line.  
+   Example: `Enter the bet per line: 10`
 
-Game Flow:
+4. **Spin the Reels**  
+   The game randomly generates a grid of symbols (3x3). If the symbols on your selected lines match, you win!
 
-Deposit MoneyStart by entering the amount you want to deposit.Example: Enter a deposit amount: 100
+5. **Check Winnings**  
+   If all symbols on a line are the same, you win based on the symbol's value. Your winnings are added to your balance.
 
-Choose Number of LinesSelect how many lines you want to bet on (1-3).Example: Enter the number of lines to bet on (1-3): 2
+6. **Play Again or Exit**  
+   Choose whether to continue playing or exit the game.  
+   Example: `Do you want to play again (y/n)?`
 
-Place Your BetEnter the amount you want to bet per line.Example: Enter the bet per line: 10
+7. **Game Over**  
+   The game ends if your balance runs out.
 
-Spin the ReelsThe game randomly generates a grid of symbols (3x3). If the symbols on your selected lines match, you win!
+---
 
-Check WinningsIf all symbols on a line are the same, you win based on the symbol's value. Your winnings are added to your balance.
+## Installation & Setup ⚙️
 
-Play Again or ExitChoose whether to continue playing or exit the game.Example: Do you want to play again (y/n)?
+1. **Install Node.js**  
+   Ensure that [Node.js](https://nodejs.org/) is installed on your system.
 
-Game OverThe game ends if your balance runs out.
+2. **Clone or Download the Repository**
 
-Installation & Setup ⚙️
+   ```bash
+   git clone https://github.com/yashwanth-cyberdev/javascript-slot-machine
+   cd slot-machine-game
+   ```
 
-Install Node.jsEnsure that Node.js is installed on your system.
+3. **Install Dependencies**  
+   The game uses the `prompt-sync` library for user input. Install it by running:
 
-Clone or Download the Repository
+   ```bash
+   npm install prompt-sync
+   ```
 
-git clone https://github.com/yashwanth-cyberdev/javascript-slot-machine.git
-cd slot-machine-game
+4. **Run the Game**  
+   Start the game by running:
+   ```bash
+   node slot-machine.js
+   ```
 
-Install DependenciesThe game uses the prompt-sync library for user input. Install it by running:
+---
 
-npm install prompt-sync
+## Rules 🔄
 
-Run the GameStart the game by running:
+1. Each symbol has a value:
 
-node slot-machine.js
+   - **A**: 5
+   - **B**: 4
+   - **C**: 3
+   - **D**: 2
 
-Rules 🔄
+2. Winning Condition:  
+   A line is considered a win if all the symbols on that line are the same.
 
-Each symbol has a value:
+3. Winnings Calculation:  
+   Winnings = Bet Amount × Symbol Value
 
-A: 5
+4. Bet Limits:
+   - You cannot bet more than your balance.
+   - You cannot bet more than your balance divided by the number of lines.
 
-B: 4
+---
 
-C: 3
+## Example Gameplay 🕹️
 
-D: 2
-
-Winning Condition:A line is considered a win if all the symbols on that line are the same.
-
-Winnings Calculation:Winnings = Bet Amount × Symbol Value
-
-Bet Limits:
-
-You cannot bet more than your balance.
-
-You cannot bet more than your balance divided by the number of lines.
-
-Example Gameplay 🕹️
-
+```plaintext
 Enter a deposit amount: 100
 Enter the number of lines to bet on (1-3): 2
 Enter the bet per line: 10
@@ -88,23 +109,30 @@ A | A | C
 
 You won $40!
 Do you want to play again (y/n)? y
+```
 
-Technologies Used 🛠️
+---
 
-JavaScript: Core language for the game logic.
+## Technologies Used 🛠️
 
-Node.js: Runtime environment.
+- **JavaScript**: Core language for the game logic.
+- **Node.js**: Runtime environment.
+- **prompt-sync**: For handling user input.
 
-prompt-sync: For handling user input.
+---
 
-Contributing 🤝
+## Contributing 🤝
 
 Feel free to fork this repository and submit pull requests to add new features, improve the game, or fix any bugs.
 
-License 📄
+---
+
+## License 📄
 
 This project is licensed under the MIT License. You’re free to use, modify, and distribute this game as you like.
 
-Author ✍️
+---
 
-Developed with ❤️ by yashwanth-cyberdev
+## Author ✍️
+
+Developed with ❤️ by [Yashwanth](https://github.com/yashwanth-cyberdev)
