@@ -60,16 +60,16 @@ This is a simple **command-line slot machine game** written in JavaScript. Playe
    ```
 
 3. **Install Dependencies**  
-   The game uses the `prompt-sync` library for user input. Install it by running:
+   The game uses libraries mentioned in package.json to install libraries run:
 
    ```bash
-   npm install prompt-sync
+   npm install
    ```
 
 4. **Run the Game**  
    Start the game by running:
    ```bash
-   node slot-machine.js
+   node game.js
    ```
 
 ---
