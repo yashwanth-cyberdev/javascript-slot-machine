@@ -121,18 +121,6 @@ Do you want to play again (y/n)? y
 
 ---
 
-## Contributing 🤝
-
-Feel free to fork this repository and submit pull requests to add new features, improve the game, or fix any bugs.
-
----
-
-## License 📄
-
-This project is licensed under the MIT License. You’re free to use, modify, and distribute this game as you like.
-
----
-
 ## Author ✍️
 
 Developed with ❤️ by [Yashwanth](https://github.com/yashwanth-cyberdev)
